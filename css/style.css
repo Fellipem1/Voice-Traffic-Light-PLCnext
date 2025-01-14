@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.main-section{
+    background-color: black;
+}
+
+.main-text {
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+.card {
+    min-height: 300px;
+  }
+
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.600);
+    padding: 20px;
+}
+
+.select-guia {
+    background-color: white;
+}
+
+.select-guia-text {
+    text-align: center;
+    padding: 50px;
+}
+
+.form-section {
+    height: 100vh;
+}
+  
+.form-section form {
+    padding: 20px;
+}
+
+.contact-section {
+    background-color: white;
+}
+
+.contact-section-text {
+    text-align: center;
+    padding: 50px;
+}
+
+.me-section {
+    height: 100vh;
+}
+
+.me-section-text {
+    text-align: center;
+    padding: 50px;
+}
+
+.me-section p {
+    padding : 50px;
+}
+
+.footer-section {
+    padding-top: 50px;
+}
+
+/* Color original del botón */
+.btn-primary {
+    background-color: rgb(0, 155, 163) !important; /* Color original */
+    border-color: rgb(0, 155, 163) !important;     /* Color original */
+}
+
+/* Cambiar el color cuando el botón está en estado activo (presionado) */
+.btn-primary.active {
+    background-color: rgb(255, 0, 0) !important;   /* Rojo cuando está presionado */
+    border-color: rgb(200, 0, 0) !important;       /* Rojo más oscuro para el borde */
+}
+
+/* Cambiar el color de fondo y el borde cuando el botón está en estado hover (pasado por el mouse) */
+.btn:hover, .btn-primary:hover  {
+    background-color: rgb(146 192 62) !important;
+    border-color: rgb(146 192 62) !important;
+}
+
+/* Eliminar el contorno predeterminado que aparece al hacer clic */
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Agregar una transición suave para que el cambio de color sea más fluido */
+.btn {
+    transition: background-color 0.3s, border-color 0.3s; /* Transición de color suave */
+}
+
+/* Color original */
+.btn-original {
+    background-color: rgb(0, 155, 163); /* color original */
+    border-color: rgb(0, 155, 163);
+}
+
+/* Color rojo al presionar */
+.btn-red {
+    background-color: red;
+    border-color: red;
+}
+
+.topic-input-container {
+    max-width: 300px; /* Limita el ancho máximo del input */
+    margin: 0 auto; /* Centra el input */
+}
+
+.command-recog{
+    padding: 10px;
+}
